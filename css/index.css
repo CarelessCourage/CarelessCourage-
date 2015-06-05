@@ -1,0 +1,71 @@
+body{   
+    background: url(../images/IncDrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: black;
+    width: 100%;
+    margin: 0px;
+}
+
+
+.wrapper{
+    /*margin-top: 9em;*/
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 700px;
+    <!--background-color: black;-->
+}
+
+.buttonLinks{
+    display: inline-block;
+    margin-right: 20em;
+    margin-top: 15em;
+}
+
+.button{
+    background-color: darkred;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.buttonLinks:first-child, #special{
+    margin-left: 10em;;
+}
+
+.buttonLinks:first-child, 
+.buttonLinks:nth-child(2){
+    margin-top: 0px;
+}
+
+.buttonLinks:last-child, 
+.buttonLinks:nth-child(2), 
+.buttonLinks:nth-child(6), 
+.buttonLinks:nth-child(7){
+    margin-right: 0em;
+}
+
+.button:hover{
+    transform: scale(.8, .8);
+    -webkit-transform-origin: center center;
+    transition: .4s;
+}
+
+img.svg{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    fill: #ffffff !important;
+}
+
+svg:hover path {
+    fill: red;
+}
+

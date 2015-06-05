@@ -1,0 +1,120 @@
+footer{
+    margin-top:;
+}
+
+body{
+    margin: 0;
+}
+
+.add_entity{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background-color: rgba(25, 25, 25, .5);
+    margin-top: 9em;
+    position: absolute;   
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.add_entity:hover{
+    background-color: rgba(0, 0, 0, .7);
+    transform: scale(.8, .8);
+    -webkit-transform-origin: center center;
+    transition: .4s;
+}
+
+.word{
+    line-height: 4.7em;
+    margin: auto;
+    font-size: ;
+    font-family: helvetica;
+} 
+
+.plus_hor{
+    height: 18em;
+    width: 2em;
+    margin: auto;
+    background-color: black;
+}
+
+.plus_ver{
+    height: 2em;
+    width: 18em;
+    margin: auto;
+    background-color: black;
+}
+
+.expanded_info{
+    width: 40em;
+    padding: 2em;
+    margin: auto;
+    margin-top: -10em;
+    background-color: rgba(25, 25, 25, .5);
+}
+
+.expanded_info p{
+    color: white;
+}
+
+#question{
+    font-family: helvetica;
+    font-size: 3em;
+    width: 10em;
+    margin: auto;
+} 
+
+.dot_expand_article{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 2em;
+} 
+
+.dot_expand_article:hover{
+   background-color: rgba(0, 0, 0, .7);
+}
+
+.expand_article{
+    width: 9.4991em;
+    margin: auto;
+} 
+
+.point{
+    margin-top: 18.5em;
+    float: left;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: rgb(36, 89, 190);
+    display: inline-block;
+    position: relative;
+}
+
+.point:hover{
+    transform: scale(.8, .8);
+    -webkit-transform-origin: center center;
+    transition: .4s;
+    background-color: rgb(96, 139, 222); 
+}
+
+.pointTree_workspace{
+    padding-bottom: 2em;
+    padding-top:  4em;
+    width: 100%;
+    height: 40em;
+    /*background-color: rgb(130, 208, 248);*/
+}
+
+.radial_attractGrid{
+    width: 40em;
+    height: 40em;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgb(32, 75, 96);
+}

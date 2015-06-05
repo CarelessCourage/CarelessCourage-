@@ -1,0 +1,26 @@
+body{   
+    background: url(../images/IncDrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+}
+
+#main-content{
+    background-color: rgba(0, 0, 0, .8);
+    width: 44%;
+    height: 100%;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.post{
+    background-color: rgba(50, 50, 50, .5);
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    margin-top: 1em;
+    border-radius: .5em;
+}
+
