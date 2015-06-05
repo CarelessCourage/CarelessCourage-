@@ -1,0 +1,30 @@
+
+
+.alert-message-inner
+{
+    color: #eff6f9;
+    background-color: rgba(66, 70, 70, 0.42);
+    border-color: #bce8f1;
+}
+
+.alert-message-outer
+{
+    color: #eff6f9;
+    background-color: rgba(22, 21, 21, 0.77);
+    border-color: #bce8f1;
+}
+
+.body-userpage
+{
+    background-image: url('http://yurippe.net/images/IncDrop2.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    margin: 0;
+}
+
+.textarea-post
+{
+    background-color: rgba(76, 76, 76, 0.6);
+    color: #fffbfb;
+}
+
