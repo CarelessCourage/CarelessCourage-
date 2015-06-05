@@ -1,11 +1,11 @@
 <?php
 require("config.php");
 
-if(isset(S_POST["submit"])){ 
-
+if(isset($_POST["submit"])){ 
+echo "win win win";
 }else{
 
-$form = <<<EOT
+?>
 <form action="register.php" method="POST">
 First name: <input type="type" name="name" /><br/>
 Last name: <input type="type" name="lname" /><br/>
@@ -18,7 +18,7 @@ Confirm Password: <input type="password" name="pass2" /><br />
 
 </form>
 
-EOT;
+<?php
 
 }
 

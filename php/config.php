@@ -3,7 +3,7 @@ $mysql_username = "root";
 $mysql_password = "";
 $mysql_host = "";
 $mysql_port = 3306;
-$mysql_database = "user";
+$mysql_database = "carelesscourage";
 
 function getMySQLConnection(){
 		global $mysql_username, $mysql_password, $mysql_host, $mysql_port, $mysql_database;
