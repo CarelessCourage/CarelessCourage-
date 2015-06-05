@@ -1,9 +1,9 @@
 <?php
 require("config.php");
+$con = getMySQLConnection("Signup currently disabled, try again later");
 
 if(isset($_POST["submit"])){
-$con = getMySQLConnection();
-
+	
 $con->query("INSERT INTO `users` (`username`, `password`, `email`, `firstname`, `lastname`) VALUES (
 			'".$con->real_escape_string($_POST["uname"])."', ".
 			"'".$con->real_escape_string($_POST["pass"])."', ".
@@ -13,7 +13,6 @@ $con->query("INSERT INTO `users` (`username`, `password`, `email`, `firstname`, 
 			");");
 echo "Sign up successfull";
 }else{
-
 ?>
 <form action="register.php" method="POST">
 First name: <input type="type" name="name" /><br/>
@@ -26,9 +25,6 @@ Confirm Password: <input type="password" name="pass2" /><br />
 <input type="submit" value="Register" name="submit" />
 
 </form>
-
 <?php
-
 }
-
 ?>
