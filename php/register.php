@@ -6,7 +6,7 @@ $con = getMySQLConnection();
 
 $con->query("INSERT INTO `users` (`username`, `password`, `email`, `firstname`, `lastname`) VALUES (
 			'".$con->real_escape_string($_POST["uname"])."', ".
-			"'".$con->real_escape_string($_POST["pass1"])."', ".
+			"'".$con->real_escape_string($_POST["pass"])."', ".
 			"'".$con->real_escape_string($_POST["email"])."', ".
 			"'".$con->real_escape_string($_POST["name"])."', ".
 			"'".$con->real_escape_string($_POST["lname"])."' ".
@@ -21,7 +21,7 @@ Last name: <input type="type" name="lname" /><br/>
 Username: <input type="type" name="uname" /><br/>
 Email: <input type="type" name="email" /><br/>
 Confirm Email: <input type="type" name="email2" /><br/>
-Password: <input type="password" name="passl" /><br />
+Password: <input type="password" name="pass" /><br />
 Confirm Password: <input type="password" name="pass2" /><br />
 <input type="submit" value="Register" name="submit" />
 
