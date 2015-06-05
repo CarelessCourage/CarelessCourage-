@@ -2,15 +2,15 @@
 require("config.php");
 
 if(isset($_POST["submit"])){
-$con = $getMySQLConnection();
+$con = getMySQLConnection();
 
 $con->query("INSERT INTO `users` (`username`, `password`, `email`, `firstname`, `lastname`) VALUES (
-			'".$con->real_escape_string($_POST["uname"])."', 
-			'".$con->real_escape_string($_POST["pass1"])."', 
-			'".$con->real_escape_string($_POST["email"])."', 
-			'".$con->real_escape_string($_POST["name"])."', 
-			'".$con->real_escape_string($_POST["lname"])."'
-			);");
+			'".$con->real_escape_string($_POST["uname"])."', ".
+			"'".$con->real_escape_string($_POST["pass1"])."', ".
+			"'".$con->real_escape_string($_POST["email"])."', ".
+			"'".$con->real_escape_string($_POST["name"])."', ".
+			"'".$con->real_escape_string($_POST["lname"])."' ".
+			");");
 echo "Sign up successfull";
 }else{
 
