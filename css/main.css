@@ -30,6 +30,7 @@
 }
 
 .menu{
+    display: none;
     width: 38em;
     background-color: black;
     position: relative;

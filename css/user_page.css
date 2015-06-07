@@ -1,0 +1,101 @@
+body{
+    background-image: url(../images/IncDrop2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+#user_content{
+    width: 50%;
+    height: 50em;
+    margin: auto;
+    background-color: rgba(42, 28, 28, 0.9);
+}
+
+.post{
+    border-radius: .2em;
+    width: 90%;
+    height: 10em;
+    margin: auto;
+    margin: 2em;
+    background-color: rgba(16, 32, 41, 0.6);
+}
+
+#post{
+    border-radius: 5em;
+    width: 90%;
+    height: 10em;
+    margin: auto;
+    margin: 2em;
+    background-color: rgba(92, 102, 108, 0.6);
+}
+
+.post-btn{
+    border-radius: 5em;
+    width: 20%;
+    height: 3em;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(0, 118, 255, 0.71);
+}
+
+#poster{
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    margin-bottom: -.5em;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: .2em;
+}
+
+#poster:hover{
+    transform: scale(1.8, 1.8); 
+}
+
+#first-cross{
+    width: .2em;
+    height: 1.8em;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    
+}
+
+#sec-cross{
+    width: 1.8em;
+    height: .2em;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    position: absolute;
+    margin-top: -.95em;
+    margin-left: .1em;
+}
+
+h1{
+    margin: auto;
+}
+
+#user-tabs{
+    width: 45em;
+    margin: auto;
+    padding: 0;
+    margin-bottom: -2em;
+    margin-top: 2em;
+}
+
+#user-tabs li{
+    margin: auto;
+    display: inline-block;
+    margin-right:  1em;
+    margin-left: 1em;
+    font-size: 2em;
+    color: white;
+}
+
+#user-tabs li div{
+    margin: auto;
+    background-color: black;
+    padding: .3em;
+}
+
