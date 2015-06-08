@@ -109,3 +109,20 @@ h1{
     background-color: rgb(147, 147, 147);
     height: 15em;
 }
+
+#verticalL{
+    width: 20%;
+    height: 50em;
+    position: absolute;
+    z-index: 4;
+    background-color: rgb(147, 147, 147);
+}
+
+#verticalR{
+    width: 20%;
+    height: 50em;
+    margin-left: 100%;
+    position: absolute;
+    z-index: 4;
+    background-color: rgb(147, 147, 147);
+}
