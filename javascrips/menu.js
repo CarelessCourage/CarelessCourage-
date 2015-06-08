@@ -1,13 +1,15 @@
 $(document).ready(function () {
+    
     $(".menu").hide();
     
+    
     $("#menu_wrapper")
-  .mouseenter(function () {
-    $(".menu").slideDown();
-  })
-  .mouseleave(function () {
-     $(".menu").stop(true, true).delay(800).slideUp("slow");
-  });
+    .mouseenter(function () {
+        $(".menu").slideDown();
+    })
+    .mouseleave(function () {
+        $(".menu").stop(true, true).delay(800).slideUp("slow");
+    });
     
   /*$('.trigger').hoverIntent({
      over: startHover,
@@ -20,8 +22,6 @@ $(document).ready(function () {
 /*make the script not exit until you have been out of it for a set amount of time
 hover intent
 */
-
-
 
 /*
      * Replace all SVG images with inline SVG

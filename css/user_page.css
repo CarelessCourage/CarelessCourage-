@@ -22,7 +22,7 @@ body{
     background-color: rgba(16, 32, 41, 0.6);
 }
 
-#post{
+.poster{
     border-radius: 5em;
     width: 90%;
     height: 10em;
