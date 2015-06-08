@@ -7,7 +7,7 @@ body{
 
 
 #user_content{
-    width: 50%;
+    width: 56%;
     height: 50em;
     margin: auto;
     background-color: rgba(42, 28, 28, 0.9);
@@ -48,6 +48,7 @@ body{
     margin-bottom: -.5em;
     background-color: rgba(255, 255, 255, 0.6);
     padding: .2em;
+    cursor: pointer;
 }
 
 #poster:hover{
@@ -77,7 +78,7 @@ h1{
 }
 
 #user-tabs{
-    width: 45em;
+    width: 100%;
     margin: auto;
     padding: 0;
     margin-bottom: -2em;
@@ -91,6 +92,7 @@ h1{
     margin-left: 1em;
     font-size: 2em;
     color: white;
+    cursor: pointer;
 }
 
 #user-tabs li div{
@@ -99,3 +101,11 @@ h1{
     padding: .3em;
 }
 
+#user-tabs .selected{
+    background-color: rgba(16, 32, 41, 0.6);
+}
+
+.banner{
+    background-color: rgb(147, 147, 147);
+    height: 15em;
+}

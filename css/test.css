@@ -1,0 +1,22 @@
+#user-tabs{
+    width: 43.1em;
+    margin: auto;
+    padding: 0;
+    margin-bottom: -2em;
+    margin-top: 2em;
+}
+
+#user-tabs li{
+    margin: auto;
+    display: inline-block;
+    margin-right:  1em;
+    margin-left: 1em;
+    font-size: 2em;
+    color: white;
+}
+
+#user-tabs li div{
+    margin: auto;
+    background-color: black;
+    padding: .3em;
+}
