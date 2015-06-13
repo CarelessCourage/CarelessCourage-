@@ -23,6 +23,7 @@ body{
 }
 
 .poster{
+    display: none;
     border-radius: 5em;
     width: 90%;
     height: 10em;
@@ -53,6 +54,7 @@ body{
 
 #poster:hover{
     transform: scale(1.8, 1.8); 
+    transition: .4s;
 }
 
 #first-cross{
@@ -85,7 +87,7 @@ h1{
     margin-top: 2em;
 }
 
-#user-tabs li{
+#user-tabs > li{
     margin: auto;
     display: inline-block;
     margin-right:  1%;
@@ -125,4 +127,33 @@ h1{
     position: absolute;
     z-index: 4;
     background-color: rgb(147, 147, 147);
+}
+
+#user-tabs > li{
+    display: none;
+}
+
+.small-ver{
+    width: em;
+    margin-bottom: -2.3em;
+    <!--display: none;-->
+}
+
+.small-ver ul{
+    margin-left: 2em;
+    width: 15em;
+    padding: 0;
+}
+
+.small-ver li{
+    margin-right: .5em;
+    display: inline-block;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.small-ver li:hover{
+    transform: scale(1.8, 1.8); 
+    transform-origin: bottom left;
+    transition: .4s;
 }
