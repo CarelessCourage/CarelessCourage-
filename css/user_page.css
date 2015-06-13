@@ -80,15 +80,14 @@ h1{
 }
 
 #user-tabs{
-    width: 100%;
-    margin: auto;
+    width: 40em;
     padding: 0;
     margin-bottom: -2em;
     margin-top: 2em;
+    margin-left: 1.2%;
 }
 
 #user-tabs > li{
-    margin: auto;
     display: inline-block;
     margin-right:  1%;
     margin-left: 3%;
@@ -130,13 +129,13 @@ h1{
 }
 
 #user-tabs > li{
-    display: none;
+    
 }
 
 .small-ver{
     width: em;
     margin-bottom: -2.3em;
-    <!--display: none;-->
+    display: none;
 }
 
 .small-ver ul{
@@ -146,7 +145,7 @@ h1{
 }
 
 .small-ver li{
-    margin-right: .5em;
+    margin-right: 1em;
     display: inline-block;
     font-size: 2em;
     cursor: pointer;
