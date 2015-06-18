@@ -48,6 +48,11 @@
     height: 58.0em;
 }
 
+/*.menu_text div{
+    width: 2em;
+    height: 2em;
+}*/
+
 .buttons{
     background-color: skyblue;
     width: 100px;
