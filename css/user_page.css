@@ -11,6 +11,7 @@ body{
     height: 50em;
     margin: auto;
     background-color: rgba(42, 28, 28, 0.9);
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 .post{
@@ -20,6 +21,7 @@ body{
     margin: auto;
     margin: 2em;
     background-color: rgba(16, 32, 41, 0.6);
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 .poster{
@@ -30,6 +32,7 @@ body{
     margin: auto;
     margin: 2em;
     background-color: rgba(92, 102, 108, 0.6);
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 .post-btn{
@@ -50,6 +53,8 @@ body{
     background-color: rgba(255, 255, 255, 0.6);
     padding: .2em;
     cursor: pointer;
+
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 #poster:hover{
@@ -77,6 +82,7 @@ body{
 
 h1{
     margin: auto;
+    
 }
 
 #user-tabs{
@@ -107,8 +113,14 @@ h1{
 }
 
 .banner{
+    background-image: url(../images/Dollarphotoclub_53711435.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
     background-color: rgb(147, 147, 147);
     height: 15em;
+    box-shadow: 1px -40px 150px rgb(0, 0, 0) inset;
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 #verticalL{
@@ -117,15 +129,20 @@ h1{
     position: absolute;
     z-index: 4;
     background-color: rgb(147, 147, 147);
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 #verticalR{
+    background-image: url(../images/10696232_905454126151124_2330007230500650736_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 20%;
     height: 50em;
     margin-left: 80%;
     position: absolute;
     z-index: 4;
     background-color: rgb(147, 147, 147);
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
 }
 
 #user-tabs > li{
@@ -155,4 +172,25 @@ h1{
     transform: scale(1.8, 1.8); 
     transform-origin: bottom left;
     transition: .4s;
+}
+
+.left-margin{
+    width: 28%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
+}
+
+.user-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/user.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
+    
 }
