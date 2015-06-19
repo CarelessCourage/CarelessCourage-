@@ -8,7 +8,7 @@ body{
 
 #user_content{
     width: 56%;
-    height: 50em;
+    height: 100%;
     margin: auto;
     background-color: rgba(42, 28, 28, 0.9);
     box-shadow: 1px 0 13px rgb(0, 0, 0);
@@ -109,6 +109,8 @@ h1{
 }
 
 #user-tabs .selected{
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
+    transition: .4s;
     background-color: rgba(16, 32, 41, 0.6);
 }
 
@@ -188,7 +190,7 @@ h1{
     background-image: url(../images/user.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     margin-top: 50px;
     margin-left: 30px;
     box-shadow: 1px 0 13px rgb(0, 0, 0);
@@ -211,3 +213,9 @@ h1{
     box-shadow: 1px 0 13px rgb(0, 0, 0);
     transition: .4s;
 }
+
+.hidden{
+    display: none;
+}
+
+
