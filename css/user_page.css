@@ -194,3 +194,20 @@ h1{
     box-shadow: 1px 0 13px rgb(0, 0, 0);
     
 }
+
+#inject h1{
+    font-size: 2em;
+    width: ;
+    margin: 0;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
+    margin: auto;
+}
+
+#inject h1:hover{
+    transform: scale(.8, .8);
+    color: #ffffff;
+    box-shadow: 1px 0 13px rgb(0, 0, 0);
+    transition: .4s;
+}
