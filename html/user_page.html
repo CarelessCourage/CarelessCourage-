@@ -9,6 +9,7 @@
         
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="../javascrips/user_post.js"></script>
+        <script type="text/javascript" src="../javascrips/inject_a_post.js"></script>
         <script type="text/javascript" src="../javascrips/menu.js"></script>
         <!--<script type="text/javascript" src="../javascrips/hover_intent.js"></script>-->
         
@@ -59,27 +60,32 @@
                       
                   </div>
                   
-                  <li><div class="selected">Page</div></li>
-                  <li><div>About</div></li>
-                  <li><div>Media</div></li>
-                  <li><div>Thoughts</div></li>
+                  <li><div id="page" class="selected">Page</div></li>
+                  <li><div id="about">About</div></li>
+                  <li><div id="media">Media</div></li>
+                  <li><div id="thoughts">Thoughts</div></li>
               </ul>
              
              <div id="user-featured">
-                <div class="post-space page">
+                <div class="post-space page f">
                     <div class="post"></div>
                     <div class="post"></div>
                   
                 </div>
              
-                <div class="about hidden">
+                <div class="about hidden f">
                 </div>
 
-                <div class="media hidden">
+                <div class="media hidden f">
                 </div>
 
-                <div class="thoughts hidden">
+                <div class="thoughts hidden f">
                 </div>
+             </div>
+             
+             <div class="secondary-footer">
+                 <div class="advertisment"></div>
+                 <div class="advertisment"></div>
              </div>
     
         </div>
