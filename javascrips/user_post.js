@@ -13,4 +13,8 @@ $(document).ready(function () {
         $(this).addClass("selected");
     });
     
+    
+    //makes some elements sticky on scrool down
+    $(".user-picture").sticky();
+    
 });
