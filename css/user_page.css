@@ -2,6 +2,7 @@ body{
     background-image: url(../images/IncDrop2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
     margin: 0;
 }
 
@@ -20,8 +21,18 @@ body{
     height: 10em;
     margin: auto;
     margin: 2em;
+    padding: 2em;
     background-color: rgba(16, 32, 41, 0.6);
     box-shadow: 1px 0 13px rgb(0, 0, 0);
+}
+
+.post-content{
+    border-radius: .2em;
+    width: 97%;
+    height: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.79);
+    box-shadow: 1px 0 13px rgb(0, 0, 0) inset;
 }
 
 .poster{
@@ -128,7 +139,7 @@ h1{
 #verticalL{
     width: 20%;
     height: 50em;
-    position: absolute;
+    position: fixed;
     z-index: 4;
     background-color: rgb(147, 147, 147);
     box-shadow: 1px 0 13px rgb(0, 0, 0);
@@ -141,7 +152,7 @@ h1{
     width: 20%;
     height: 50em;
     margin-left: 80%;
-    position: absolute;
+    position: fixed;
     z-index: 4;
     background-color: rgb(147, 147, 147);
     box-shadow: 1px 0 13px rgb(0, 0, 0);
@@ -230,7 +241,8 @@ h1{
     display: inline-block;
     margin-right: 2em;
     margin-left: 2em;
-    background-color: #000000;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.42);
 }
 
 
