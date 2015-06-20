@@ -24,5 +24,15 @@ $(document).ready(function () {
     $(".user-picture").on("sticky-end", function () {
         $(".user-picture").removeClass(".user-picture-sticky");
     });
+
+    //adds a caRUSEL TO THE BANNER
+    $(".slides").slick({
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: true, 
+        
+    });
     
 });
