@@ -198,14 +198,22 @@ h1{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(../images/user.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(183, 183, 183);
     position: absolute;
     margin-top: 50px;
     margin-left: 30px;
     box-shadow: 1px 0 13px rgb(0, 0, 0);
-    
+}
+
+.user-picture-sticky{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/user.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 0 19px rgb(0, 0, 0);
+    transition: .4s;
 }
 
 #inject h1{

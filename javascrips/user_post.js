@@ -17,4 +17,12 @@ $(document).ready(function () {
     //makes some elements sticky on scrool down
     $(".user-picture").sticky();
     
+    $(".user-picture").on("sticky-start", function () {
+        $(".user-picture").addClass(".user-picture-sticky");
+    });
+
+    $(".user-picture").on("sticky-end", function () {
+        $(".user-picture").removeClass(".user-picture-sticky");
+    });
+    
 });
