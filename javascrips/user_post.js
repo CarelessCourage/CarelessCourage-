@@ -30,7 +30,7 @@ $(document).ready(function () {
         fade: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        arrows: false,
+        arrows: true,
         dots: true, 
         
     });
